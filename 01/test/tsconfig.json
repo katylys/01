@@ -1,0 +1,13 @@
+{
+  "extends": "../src/tsconfig.json",
+  "compilerOptions": {
+    "removeComments": false,
+    "types": [
+      "mocha",
+      "sinon"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ]
+}

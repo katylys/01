@@ -1,0 +1,12 @@
+*.log
+*.js
+ 
+node_modules
+.history
+
+dist
+
+yarn-error.log
+.history
+
+package-lock.json
