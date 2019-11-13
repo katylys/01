@@ -1,0 +1,32 @@
+{
+    "name": "currency-converter",
+    "version": "1",
+    "main": "dist/converter.js",
+    "author": "Lysychenko Ekaterina",
+    "license": "UNLICENSED",
+    "private": false,
+    "engines": {
+        "node": "12.7.0",
+        "yarn": "^1.13.0"
+    },
+    "scripts": {
+        "build": "rimraf dist && tsc -p src --outDir dist",
+        "compile": "tsc -p src --noEmit"
+    },
+    "dependencies": {
+        "class-validator": "^0.11.0",
+        "fs": "0.0.1-security",
+        "koa": "^2.11.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-ejs": "^4.2.0",
+        "koa-router": "^7.4.0",
+        "request": "^2.88.0",
+        "request-promise-native": "^1.0.8",
+        "typescript": "^3.7.2"
+    },
+    "devDependencies": {
+        "@types/request-promise-native": "^1.0.17",
+        "ts-node": "6.2.0",
+        "@types/node": "12.12.6"
+    }
+}
