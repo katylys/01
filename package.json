@@ -13,7 +13,7 @@
         "lint": "tslint -p src && tslint -p test",
         "build": "tsc src/main.ts",
         "mochaTest": "mocha",
-        "runServer": "node src/main.js"
+        "start": "node src/main.js"
     },
     "dependencies": {
         "@types/koa-ejs": "^4.2.0",
